@@ -1,0 +1,124 @@
+body {
+  font-family: 'Comfortaa', cursive; }
+
+li {
+  list-style-type: none; }
+
+ul {
+  padding: 0; }
+
+#header {
+  width: 100%;
+  height: 70px;
+  background-color: #36322d; }
+
+#container-info {
+  width: 100%;
+  min-height: 1000px;
+  background-image: url("../img/i5.jpg");
+  object-fit: cover;
+  border-top: 1px solid transparent; }
+  #container-info .info-box {
+    width: 70%;
+    height: 400px;
+    background-color: #f7f2f2;
+    border: 3px solid black;
+    border-radius: 3%;
+    margin: auto;
+    margin-top: 50px; }
+    #container-info .info-box .info-name {
+      width: 100%;
+      height: 15%;
+      display: inline-block;
+      border-bottom: 3px solid black;
+      font-size: 30px;
+      font-weight: bold;
+      text-align: left;
+      padding-left: 3%;
+      padding-top: 1%; }
+    #container-info .info-box .info-main {
+      width: 100%;
+      height: 85%;
+      display: flex; }
+      #container-info .info-box .info-main .info-img-block {
+        width: 30%;
+        height: 100%;
+        object-fit: cover;
+        border-top: 1px solid transparent;
+        border-right: 3px solid yellow; }
+        #container-info .info-box .info-main .info-img-block .cast-member-img {
+          width: 80%;
+          height: 80%;
+          display: block;
+          border: 2px solid rebeccapurple;
+          margin: auto;
+          margin-top: 10%; }
+        #container-info .info-box .info-main .info-img-block .info-cast-member {
+          background-color: aqua; }
+      #container-info .info-box .info-main .info-cast-member {
+        width: 70%;
+        height: 100%;
+        background-color: #f4f6f7;
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid transparent; }
+        #container-info .info-box .info-main .info-cast-member .info-li {
+          font-size: 20px;
+          margin-left: 6%; }
+          #container-info .info-box .info-main .info-cast-member .info-li .info-li-name {
+            font-weight: bold;
+            font-size: 23px;
+            border-bottom: 3px solid rgba(238, 111, 87, 0.5);
+            border-right: 2px solid rgba(238, 111, 87, 0.5);
+            border-radius: 20%; }
+          #container-info .info-box .info-main .info-cast-member .info-li .info-li-text {
+            margin-left: 2%; }
+  #container-info .info-films {
+    width: 70%;
+    min-height: 500px;
+    overflow-y: scroll;
+    background-color: #f7f2f2;
+    border: 3px solid black;
+    border-radius: 3%;
+    margin: auto;
+    margin-top: 2px; }
+    #container-info .info-films .info-name {
+      width: 100%;
+      height: 15%;
+      display: inline-block;
+      border-bottom: 3px solid black;
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+      padding-top: 1%;
+      cursor: pointer; }
+    #container-info .info-films .films-box {
+      width: 100%;
+      height: 85%; }
+      #container-info .info-films .films-box .films-career {
+        width: 90%;
+        min-height: 90%;
+        border: 1px solid red;
+        margin: auto;
+        margin-top: 2%; }
+        #container-info .info-films .films-box .films-career .films-career-name {
+          width: 100%;
+          background-color: #54bba1;
+          display: inline-block;
+          border-bottom: 2px solid #404140;
+          font-size: 25px;
+          font-weight: bold;
+          text-align: center;
+          cursor: pointer; }
+        #container-info .info-films .films-box .films-career .films-career-list {
+          width: 100%; }
+          #container-info .info-films .films-box .films-career .films-career-list .films-item {
+            width: 100%;
+            display: inline-block;
+            background-color: azure;
+            border-bottom: 3px solid rgba(238, 111, 87, 0.5);
+            border-radius: 40%;
+            font-size: 20px;
+            text-align: center; }
+
+/*# sourceMappingURL=cast_member.css.map */

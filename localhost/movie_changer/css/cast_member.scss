@@ -1,0 +1,216 @@
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+}
+
+
+#header {
+
+    width: 100%;
+    height: 70px;
+    background-color: rgb(54, 50, 45);
+
+}       
+
+
+#container-info {
+
+    width: 100%;
+    min-height: 1000px;
+    background-image: url("../img/i5.jpg");
+
+    object-fit: cover;
+
+    border-top: 1px solid transparent;
+
+    .info-box {
+        
+        width: 70%;
+        height: 400px;
+        background-color: rgb(247, 242, 242);
+
+        border: 3px solid black;
+        border-radius: 3%;
+
+        margin: auto;
+        margin-top: 50px;
+
+        .info-name {
+            
+            width: 100%;
+            height: 15%;
+            display: inline-block;
+
+            border-bottom: 3px solid black;
+
+            font-size: 30px;
+            font-weight: bold;
+            text-align: left;
+
+            padding-left: 3%;
+            padding-top: 1%;
+
+        }
+
+        .info-main {
+
+            width: 100%;
+            height: 85%;
+
+            display: flex;
+            
+            .info-img-block{
+
+                width: 30%;
+                height: 100%;
+                object-fit: cover;
+
+                border-top: 1px solid transparent;
+                border-right: 3px solid yellow;
+
+                .cast-member-img {
+                    
+                    width: 80%;
+                    height: 80%;
+                    display: block;
+                    
+                    border: 2px solid rebeccapurple;
+
+                    margin: auto;
+                    margin-top: 10%;
+                }
+                .info-cast-member {
+                
+                    background-color: aqua;
+                }
+            }
+
+            .info-cast-member {
+                
+                width: 70%;
+                height: 100%;
+                background-color: rgb(244, 246, 247);
+
+                display: flex;
+                flex-direction: column;
+                
+                border-top: 1px solid transparent;
+
+                .info-li {
+
+                    font-size: 20px;
+
+                    margin-left: 6%;
+                    
+                    .info-li-name {
+                        
+                        font-weight: bold;
+                        font-size: 23px;
+
+                        border-bottom: 3px solid rgba(238,111,87,0.5);
+                        border-right: 2px solid rgba(238,111,87,0.5);
+                        border-radius: 20%;
+                    }
+
+                    .info-li-text{
+                        
+                        margin-left: 2%;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .info-films {
+        
+        width: 70%;
+        min-height: 500px;
+        overflow-y: scroll;
+        background-color: rgb(247, 242, 242);
+
+        border: 3px solid black;
+        border-radius: 3%;
+
+        margin: auto;
+        margin-top: 2px;
+
+
+        .info-name {
+            
+            width: 100%;
+            height: 15%;
+            display: inline-block;
+
+            border-bottom: 3px solid black;
+
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+
+            padding-top: 1%;
+
+            cursor: pointer;
+
+        }
+
+        .films-box {
+
+            width: 100%;
+            height: 85%;
+
+            .films-career {
+
+                width: 90%;
+                min-height: 90%;
+
+                border: 1px solid red;
+
+                margin: auto;
+                margin-top: 2%;
+
+                .films-career-name {
+                    
+                    width: 100%;
+                    background-color: rgb(84, 187, 161);
+                    
+                    display: inline-block;
+
+                    border-bottom: 2px solid rgb(64, 65, 64);
+
+                    font-size: 25px;
+                    font-weight: bold;
+                    text-align: center;
+
+                    cursor: pointer;
+                }
+
+                .films-career-list {
+                    
+                    width: 100%;
+
+                    .films-item {
+                        
+                        width: 100%;
+                        display: inline-block;
+
+                        background-color: azure;
+                        border-bottom: 3px solid rgba(238,111,87,0.5);
+                        border-radius: 40%;
+
+                        font-size: 20px;
+                        text-align: center;
+                    }
+                }
+            }
+
+        }
+    }
+}
