@@ -98,7 +98,7 @@ ul {
       #container-info .info-films .films-box .films-career {
         width: 90%;
         min-height: 90%;
-        border: 1px solid red;
+        border: 1px solid #d8a9a9;
         margin: auto;
         margin-top: 2%; }
         #container-info .info-films .films-box .films-career .films-career-name {
