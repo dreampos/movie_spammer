@@ -56,4 +56,8 @@ set_(['count-films'], '+100500');
 add_block_career('Robot', ['Love', 'Love2']);
 add_block_career('Robot', ['Love', 'Love2']);
 
+add_block_career('Robot', ['Love', 'Love2']);
+add_block_career('Robot', ['Love', 'Love2']);
+
+
 console.log(getUrlVars());

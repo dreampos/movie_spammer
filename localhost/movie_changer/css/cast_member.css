@@ -16,8 +16,8 @@ ul {
   width: 100%;
   min-height: 1000px;
   background-image: url("../img/i5.jpg");
-  object-fit: cover;
-  border-top: 1px solid transparent; }
+  border-top: 1px solid transparent;
+  padding-bottom: 5%; }
   #container-info .info-box {
     width: 70%;
     height: 400px;
@@ -45,12 +45,11 @@ ul {
         height: 100%;
         object-fit: cover;
         border-top: 1px solid transparent;
-        border-right: 3px solid yellow; }
+        border-right: 3px solid #b35245; }
         #container-info .info-box .info-main .info-img-block .cast-member-img {
           width: 80%;
           height: 80%;
           display: block;
-          border: 2px solid rebeccapurple;
           margin: auto;
           margin-top: 10%; }
         #container-info .info-box .info-main .info-img-block .info-cast-member {
@@ -81,7 +80,7 @@ ul {
     border: 3px solid black;
     border-radius: 3%;
     margin: auto;
-    margin-top: 2px; }
+    margin-top: 10px; }
     #container-info .info-films .info-name {
       width: 100%;
       height: 15%;
@@ -92,12 +91,14 @@ ul {
       text-align: center;
       padding-top: 1%;
       cursor: pointer; }
+    #container-info .info-films .info-name:hover {
+      opacity: 50%;
+      transition-duration: 1s; }
     #container-info .info-films .films-box {
       width: 100%;
-      height: 85%; }
+      padding-bottom: 5%; }
       #container-info .info-films .films-box .films-career {
         width: 90%;
-        min-height: 90%;
         border: 1px solid #d8a9a9;
         margin: auto;
         margin-top: 2%; }
@@ -110,6 +111,9 @@ ul {
           font-weight: bold;
           text-align: center;
           cursor: pointer; }
+        #container-info .info-films .films-box .films-career .films-career-name:hover {
+          opacity: 50%;
+          transition-duration: 1s; }
         #container-info .info-films .films-box .films-career .films-career-list {
           width: 100%; }
           #container-info .info-films .films-box .films-career .films-career-list .films-item {

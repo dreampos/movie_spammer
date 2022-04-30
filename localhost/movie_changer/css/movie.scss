@@ -99,7 +99,7 @@ ul {
                 display: flex;
                 flex-direction: column;
                 
-                // border-top: 1px solid transparent;
+                padding-top: 1%;
 
                 .info-li {
 
@@ -131,7 +131,7 @@ ul {
         
         width: 70%;
         height: 500px;
-        overflow-y: scroll;
+
         background-color: rgb(247, 242, 242);
 
         border: 3px solid black;
@@ -139,6 +139,8 @@ ul {
 
         margin: auto;
         margin-top: 10px;
+
+        overflow-y: scroll;
 
 
         .reviews-name {
@@ -157,6 +159,13 @@ ul {
 
             cursor: pointer;
 
+        }
+
+        .reviews-name:hover {
+
+            opacity: 50%;
+            transition-duration: 1s;
+        
         }
 
         .reviews-block {
