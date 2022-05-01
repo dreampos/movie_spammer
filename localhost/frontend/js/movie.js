@@ -1,8 +1,8 @@
-function set_block_review(name, date, text) {
+function setBlockReview(name, date, text) {
 
-    var container_name = document.getElementById("reviews");
+    var containerName = document.getElementById("reviews");
 
-    container_name.innerHTML += ` <div class = "reviews-block"> 
+    containerName.innerHTML += ` <div class = "reviews-block"> 
 
     <div class = "reviews-block-name-date">
         <span class = "reviews-user-name">` + name + `</span>
@@ -15,8 +15,7 @@ function set_block_review(name, date, text) {
 
 }
 
-
-function facechange(objName) {
+function faceChange(objName) {
     if ($(objName).css('display') == 'none') {
         $(objName).animate({
             height: 'show'
@@ -28,11 +27,11 @@ function facechange(objName) {
     }
 };
 
-function set_(id_s, prop) {
+function setPropsId(id_s, prop) {
 
     for (id of id_s) {
-        var container_name = document.getElementById(id);
-        container_name.innerHTML = prop;
+        var containerName = document.getElementById(id);
+        containerName.innerHTML = prop;
     }
 }
 
@@ -47,18 +46,18 @@ function getUrlVars() {
 }
 
 
-set_(['genre'], 'triller');
-set_(['yearOfProd'], '2021');
-set_(['name', 'name-form'], 'Elden Ring');
-set_(['director'], 'Noname');
-set_(['writer'], 'Noname');
-set_(['cast'], 'Noname, Noname');
-set_(['release-date'], '00-00-0000');
-set_(['duration'], '80h');
-set_(['budget'], '80 limes');
-set_(['country'], 'Kazachstan')
+setPropsId(['genre'], 'triller');
+setPropsId(['yearOfProd'], '2021');
+setPropsId(['name', 'name-form'], 'Elden Ring');
+setPropsId(['director'], 'Noname');
+setPropsId(['writer'], 'Noname');
+setPropsId(['cast'], 'Noname, Noname');
+setPropsId(['release-date'], '00-00-0000');
+setPropsId(['duration'], '80h');
+setPropsId(['budget'], '80 limes');
+setPropsId(['country'], 'Kazachstan')
 
-set_block_review('Yana', 'review added today at 14.53', 'Huyna');
-set_block_review('Yana', 'review added today at 14.53', 'Huyna');
-set_block_review('Yana', 'review added today at 14.53', 'Huyna');
-set_block_review('Yana', 'review added today at 14.53', 'Huyna');
+setBlockReview('Yana', 'review added today at 14.53', 'Huyna');
+setBlockReview('Yana', 'review added today at 14.53', 'Huyna');
+setBlockReview('Yana', 'review added today at 14.53', 'Huyna');
+setBlockReview('Yana', 'review added today at 14.53', 'Huyna');
